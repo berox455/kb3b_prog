@@ -5,6 +5,7 @@ predhodina = 0
 nejhodina = 0
 pocet_salin_now = 1   #pro vypocet nejcastejsi hodiny
 pocet_salin_max = 1   #pro vypocet nejcastejsi hodiny
+mezicas = 0
 
 nsalin = int(input("Zadej pocet salin: "))
 
