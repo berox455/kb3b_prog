@@ -101,7 +101,7 @@ def pismena_spravna_spatna(word, slovo):
             if letter != pismeno:
                 spatna_pismena[promenna] = pismeno
                 promenna += 1
-            elif:
+            #elif: idk what happened here
 
         
 

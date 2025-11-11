@@ -2,7 +2,7 @@ import random
 import os
 
 #os.chdir("C:/Users/Home/OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno/KB3B/Prog/Python/Projekt/wordle upgrade")
-file_path = "words.txt"
+file_path = "Projekt wordle\wordle upgrade\words.txt"
 
 yellow_bg = "\x1b[48;2;255;255;90m{}\x1b[0m"
 green_bg = "\x1b[48;2;0;255;90m{}\x1b[0m"
@@ -101,7 +101,7 @@ def play_again() -> bool: #pta se jestli chce hrat znovu
 
     if again == "a":
         return True
-    elif again == "n":
+    else:
         return False
 
 
