@@ -42,7 +42,7 @@ def prumerna_odchylka(pole):
 pole1 = [20, 1, 30, 5, -1, 28, 55, 32]
 pole = [-1, -2, -3, -4, 20, -30, 44, 70]
 pole2 = [200, -1, 444, -3, -5]
-pole0 = []
+pole0: list[int] = []
 pole3 = [5, 2, -1, 3, 4, 1, 0, 9]
 
 #print(nejvetsi(pole0))
