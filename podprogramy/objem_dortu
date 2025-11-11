@@ -1,0 +1,55 @@
+import math
+
+#v1 = float(input("v1: "))
+#r1 = float(input("r1: "))
+#objem1 = math.pi*r1*r1*v1
+#
+#v2 = float(input("v2: "))
+#r2 = float(input("r2: "))
+#objem2 = math.pi*r2*r2*v2
+#
+#v3 = float(input("v3: "))
+#r3 = float(input("r3: "))
+#objem3 = math.pi*r3*r3*v3
+#
+#objem = o1+o2+o3
+#
+#print("Objem:", objem, " metru krychlovych", sep="")
+
+#celkovy_objem = 0
+#
+#patra = int(input("Zadej pocet pater: "))
+#
+#for i in range(patra):
+#    print("Zadej v", i+1, " [m]:", sep="")
+#    v = float(input())
+#    print("Zadej r", i+1, " [m]:", sep="")
+#    r = float(input())
+#    objem = math.pi*v*r*r
+#
+#    celkovy_objem += objem
+#
+#print("Celkovy objem:", celkovy_objem, "metru krychlovych")
+
+def nacti():
+    v = float(input("Zadej vysku [m]: "))
+    r = float(input("Zadej polomer [m]: "))
+    print()
+
+    return r, v
+
+def objem_valce(v, r):
+    return math.pi*r*r*v
+
+def objem_dortu():
+    objem_dortu = 0
+    opakovani = int(input("Zadej pocet pater dortu: "))
+    
+    for i in range(opakovani):
+        r, v = nacti()
+        objem_dortu += objem_valce(r, v)
+
+    return objem_dortu
+
+
+print("Objem dortu je: ", objem_dortu(), " metru krychlovych", sep="")

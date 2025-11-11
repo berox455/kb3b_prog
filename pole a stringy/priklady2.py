@@ -1,0 +1,1 @@
+#teams pole a řetězce slide 16
